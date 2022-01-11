@@ -1,0 +1,933 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+.curr {
+  background-color: #d650d6;
+}
+
+.bannerarea h1 {
+  font-size: 45px;
+  color: #fff;
+  font-family: "audiowide";
+  margin: 70px 20px 0px 20px;
+  font-weight: 900;
+}
+
+.bannerarea {
+  background-image: url("micpink.jpeg");
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  padding: 15px;
+  width: 100%;
+} 
+
+.bannerareaone {
+  background-image: url("records.jpeg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  padding: 15px;
+}
+
+.bannerareatwo {
+  background-image: url("aboutus.jpeg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  padding: 15px;
+}
+
+.bannerareaone h1 {
+  font-size: 45px;
+  color: #fff;
+  font-family: "audiowide";
+  margin: 70px 20px 0px 20px;
+  font-weight: 900;
+}
+
+.bannerareatwo h1 {
+  font-size: 45px;
+  color: #fff;
+  font-family: "audiowide";
+  margin: 70px 20px 0px 20px;
+  font-weight: 900;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navitems {
+  margin-top: 40px;
+}
+
+.navitems a {
+  color: #fff;
+  margin: 5px 10px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Verdana;
+  border: 1px #fff solid;
+  border-radius: 35px;
+  padding: 6px;
+  font-weight: 500;
+}
+
+.navitems a:hover {
+  color: #800080;
+  background-color: #fff;
+}
+.logo {
+  margin: 10px;
+}
+
+.logo a {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.logo a:hover {
+  color: #d650d6;
+}
+
+.heading h2 {
+  font-size: 100px;
+  color: white;
+  font-family: Verdana;
+  font-weight: 300;
+  border: solid 5px white;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.banner h2 {
+  font-size: 30px;
+  color: white;
+  font-family: "Zilla Slab Highlight", cursive;
+  font-weight: 100;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 9px;
+}
+.reverse {
+  flex-direction: column-reverse;
+}
+
+.textbox {
+  height: auto;
+  padding: 15px;
+}
+
+.textbox h2 {
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 40px;
+  margin: 3px;
+  color: #800080;
+}
+
+.textbox p {
+  font-size: 20px;
+  color: #232a34;
+  font-family: "Poppins", sans-serif;
+  margin: 3px;
+}
+
+.textbox a {
+  color: #d650d6;
+}
+
+.textbox a:visited {
+  color: blue;
+}
+
+.textbox a:hover {
+  color: #520160;
+}
+
+.imgbox {
+  width: 300px;
+  height: 300px;
+  background-image: url("expert2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.imgboxtwo {
+  width: 300px;
+  height: 300px;
+  background-image: url("musicroom2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.img {
+  width: 300px;
+  height: 260px;
+  background-image: url("bvr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.text h1 {
+  width: 100%;
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+}
+
+.text h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.bannerTwo {
+  width: 100%;
+  height: auto;
+  background-image: url("speaker.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bannerTwo h1 {
+  font-size: 30px;
+  color: #fff;
+  margin: 130px 10px 10px 10px;
+  vertical-align: middle;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px rgba(128, 0, 128, 1);
+}
+
+.bannerTwo h2 {
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 70px;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 150px;
+}
+
+.heading h1 {
+  font-size: 35px;
+  text-align: center;
+  color: #800080;
+}
+
+.stepsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.step {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  border: 5px #800080 solid;
+  border-radius: 15px;
+  padding: 5px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border: 5px #800080 solid;
+  border-radius: 150px;
+  padding: 5px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.one {
+  background-image: url("ahaha.jpeg");
+}
+
+.two {
+  background-image: url("teach.jpeg");
+}
+
+.three {
+  background-image: url("calender.jpeg");
+}
+
+.step p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin: 5px;
+  color: #fff;
+  border-radius: 35px;
+  font-weight: 900;
+  background-color: #520160;
+  padding: 12px;
+}
+
+.step i {
+  font-size: 150px;
+  margin: 10px;
+  color: #fff;
+}
+
+.stepwrapper h1 {
+  font-size: 35px;
+  color: #520160;
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.stepwrapper {
+  padding: 7px;
+  box-shadow: 0px 0px 30px #800080;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  margin: 15px;
+}
+
+.facilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  margin: 10px;
+}
+.facdesc {
+  width: 100%;
+}
+.facilities p {
+  font-size: 25px;
+  font-family: "Zilla Slab Highlight", cursive;
+  color: #800080;
+  align-items: center;
+}
+
+.facimg {
+  background-image: url("rec.jpeg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+}
+
+.aboutimg {
+  background-image: url("passion2.jpeg");
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #222;
+  color: #888;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.tag {
+  font-size: 30px;
+  color: #fff;
+  font-family: audiowide;
+  text-align: center;
+}
+
+.sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper .lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upper .fhead {
+  color: #d650d6;
+  font-size: 20px;
+}
+
+.fhead {
+  color: #d650d6;
+}
+
+.sec4upper .sec4lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec4upper {
+  margin-bottom: 20px;
+}
+
+.social i {
+  margin: 2px 8px;
+  font-size: 20px;
+}
+
+.social i:hover {
+  color: #d650d6;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+footer ul a:visited {
+  color: #888;
+}
+
+li:hover {
+  color: #d650d6;
+}
+
+.contact p:hover {
+  color: #d650d6;
+}
+
+.sec {
+  padding: 5px;
+  margin: 10px;
+}
+
+.upper {
+  margin-bottom: 20px;
+}
+
+.lower {
+  font-size: 14px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.courseitem {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 20px;
+  margin: 40px 10px;
+  text-align: center;
+  box-shadow: -20px 20px 32px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -20px 20px 32px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -20px 20px 32px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 35px;
+}
+
+.coursename {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  width: auto;
+}
+
+.coursename h1 {
+  font-size: 20px;
+  color: #800080;
+  font-family: sans-serif;
+  font-weight: 600px;
+  margin: 10px;
+}
+.coursename h2 {
+  font-size: 30px;
+  color: #800080;
+  font-family: "Zilla Slab Highlight", cursive;
+}
+
+.coursename a {
+  font-size: 30px;
+  color: #800080;
+  border: 3px #800080 solid;
+  padding: 7px;
+  margin: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.coursename a:hover {
+  color: #fff;
+  background-color: #800080;
+  font-family: "Lato", sans-serif;
+}
+
+.courseimg {
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+.vocal {
+  background-image: url("vocal.png");
+  width: 100px;
+}
+
+.instru {
+  background-image: url("instruments.png");
+}
+
+.production {
+  background-image: url("daw.png");
+  margin-bottom: -30px;
+}
+
+.djing {
+  background-image: url("djtable.png");
+  margin-bottom: -40px;
+}
+
+.composition {
+  background-image: url("vrecord.png");
+  margin-bottom: -20px;
+}
+
+.classical {
+  background-image: url("pnote.png");
+  width: 100px;
+}
+
+.passion {
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  background-image: url("passion.jpg");
+}
+
+@media all and (min-width: 750px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sec {
+    padding: 5px;
+    margin: 20px;
+  }
+
+  .upper {
+    margin-bottom: 40px;
+  }
+
+  .lower {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .list {
+    font-size: 16px;
+    align-items: flex-start;
+  }
+
+  .sec.four {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .fhead {
+    color: #d650d6;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .social i {
+    font-size: 30px;
+    margin-bottom: 4px;
+  }
+
+  .sec4upper .sec4lower {
+    align-items: flex-start;
+  }
+}
+@media all and (min-width: 1000px) {
+  #lower {
+    font-size: 20px;
+  }
+
+  .list {
+    font-size: 20px;
+  }
+
+  .fhead {
+    color: #d650d6;
+    font-size: 26px;
+  }
+}
+@media all and (min-width: 1050px) {
+  .logo a {
+    font-size: 70px;
+    margin: 5px 10px;
+    padding: 12px;
+  }
+  .bannerarea {
+    height: 700px;
+  }
+  .bannerarea h1 {
+    font-size: 100px;
+    margin-top: 200px;
+  }
+  .bannerareaone h1 {
+    font-size: 70px;
+    margin-top: 180px;
+  }
+  .bannerareatwo h1 {
+    font-size: 70px;
+    margin-top: 180px;
+  }
+  .navbar ul {
+    margin-right: 20px;
+  }
+  .navitems {
+    margin: -80px;
+  }
+  .navitems a {
+    margin: 5px 10px;
+    font-size: 25px;
+    padding: 12px;
+  }
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .textbox h2 {
+    font-size: 80px;
+  }
+  .container {
+    flex-direction: row-reverse;
+    margin: 15px;
+  }
+
+  .textbox {
+    width: 65%;
+  }
+  .imgbox {
+    width: 35%;
+    height: 400px;
+  }
+  .textbox p {
+    font-size: 30px;
+    margin: 10px;
+  }
+  .imgboxtwo {
+    width: 35%;
+    height: 400px;
+  }
+
+  .bannerTwo h1 {
+    font-size: 60px;
+    margin: 150px 10px 10px 10px;
+  }
+  .stepwrapper {
+    margin: 50px;
+    padding: 15px;
+  }
+  .stepsection {
+    flex-direction: row;
+  }
+  .stepwrapper h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .circle {
+    height: 300px;
+    width: 300px;
+  }
+  .step p {
+    font-size: 25px;
+  }
+  .facilities {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .facilities p {
+    font-size: 50px;
+    margin: 50px 30px 30px 30px;
+  }
+  .facdesc {
+    width: 65%;
+  }
+  .facimg {
+    width: 35%;
+    height: 400px;
+  }
+  .aboutimg {
+    width: 35%;
+    height: 400px;
+  }
+
+  .text {
+    padding: 2px;
+    margin: 5px;
+  }
+  .text h1 {
+    font-size: 120px;
+  }
+
+  .text h5 {
+    font-size: 50px;
+  }
+
+  .text p {
+    font-size: 30px;
+  }
+
+  .img {
+    width: 500px;
+    height: 430px;
+    margin: 10px;
+    border-radius: 7px;
+  }
+
+  li {
+    text-align: left;
+  }
+
+  .courseitem {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 50px;
+    margin: 50px 20px;
+  }
+
+  .rev {
+    flex-direction: row-reverse;
+  }
+
+  .coursename h1 {
+    font-size: 40px;
+    text-align: left;
+  }
+  .coursename h2 {
+    font-size: 70px;
+    margin: 15px;
+  }
+
+  .coursename a {
+    font-size: 40px;
+  }
+
+  .coursename {
+    width: 60%;
+    align-items: flex-start;
+  }
+
+  .courseimg {
+    height: 500px;
+    width: 40%;
+    margin: 20px;
+    background-size: contain;
+  }
+
+  .passion {
+    background-size: cover;
+    width: 500px;
+    height: 800px;
+    background-image: url("passion.jpg");
+  }
+  .vocal {
+    width: 30%;
+  }
+  .wvocal {
+    width: 70%;
+  }
+  .djing {
+    margin-bottom: 5px;
+  }
+  .composition {
+    margin-bottom: 5px;
+  }
+  .production {
+    margin-bottom: 5px;
+  }
+}
+
+.ewrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 15px;
+  margin: 8px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 10px;
+}
+.cupper h1 {
+  font-size: 50px;
+  color: #800080;
+  font-family: monospace;
+}
+.cupper h2 {
+  font-size: 30px;
+  color: #800080;
+  font-family: monospace;
+  margin: 5px;
+}
+.cupper p {
+  font-size: 25px;
+  font-family: "Zilla Slab Highlight", cursive;
+  color: #800080;
+  margin: 5px;
+  padding: 3px;
+}
+.contimg {
+  background-image: url("bvinyl.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+}
+.clower {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 10px;
+}
+.clower p {
+  font-size: 18px;
+  color: #888;
+  font-weight: 400;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+.clower a {
+  color: #800080;
+}
+.clower a:hover {
+  text-decoration: underline;
+}
+
+@media all and (min-width: 1200px) {
+  .ewrapper {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    margin: -30px 16px 16px 16px;
+  }
+  .content {
+    padding: 20px;
+    margin: 20px;
+  }
+  .cupper h1 {
+    font-size: 130px;
+  }
+  .cupper h2 {
+    font-size: 60px;
+    margin: 10px;
+  }
+  .cupper p {
+    font-size: 50px;
+    margin: 10px;
+  }
+  .contimg {
+    height: 700px;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: -40px;
+  }
+  .clower {
+    margin: 10px;
+  }
+}
